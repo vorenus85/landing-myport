@@ -26,13 +26,20 @@
 </template>
 
 <script setup>
+import { onMounted, ref } from 'vue';
 import { useImageUrl } from '../../composables/useImageUrl.js';
+import moduleData from '../../mock-data/heroModule.json';
 const folder = 'herobanner';
 const { imageUrl } = useImageUrl();
-const heroTitle =
-  'We are <span class="primary-color">always</span> there for all your needs';
+const heroTitle = ref(null);
+const description = ref(null);
+const banner = ref({ alt: '', image: '' });
 
-const banner = { alt: 'asd', image: 'hero.jpg' };
+onMounted(() => {
+  heroTitle.value = moduleData.data.title;
+  description.value = moduleData.data.description;
+  banner.value = moduleData.data.banner;
+});
 </script>
 
 <style lang="scss" scoped></style>

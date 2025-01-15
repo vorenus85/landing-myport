@@ -9,13 +9,13 @@
 </template>
 
 <script setup>
-import menuItems from '../../mock-data/headerMenu.json';
+import moduleData from '../../mock-data/headerMenu.json';
 import { onMounted, ref } from 'vue';
 
 const menu = ref([]);
 
 onMounted(() => {
-  menu.value = menuItems.data;
+  menu.value = moduleData.data;
 });
 </script>
 
