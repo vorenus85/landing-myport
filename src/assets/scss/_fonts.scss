@@ -1,10 +1,10 @@
-@mixin poppins-regular {
+@mixin poppins-400 {
   font-family: 'Poppins', serif;
   font-weight: 400;
   font-style: normal;
 }
 
-@mixin poppins-bold {
+@mixin poppins-700 {
   font-family: 'Poppins', serif;
   font-weight: 700;
   font-style: normal;
@@ -21,6 +21,13 @@
   font-family: 'DM Sans', serif;
   font-optical-sizing: auto;
   font-weight: 500;
+  font-style: normal;
+}
+
+@mixin dm-sans-700 {
+  font-family: 'DM Sans', serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
   font-style: normal;
 }
 

@@ -43,8 +43,9 @@ onMounted(() => {
 </script>
 
 <style lang="scss" scoped>
+@import '@/assets/scss/_variables.scss';
 .about-us-section {
-  background: var(--secondary-color);
+  background: $secondary-color;
   padding: 55px 0;
 }
 </style>

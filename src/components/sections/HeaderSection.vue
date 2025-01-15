@@ -6,13 +6,14 @@
 </template>
 
 <script setup>
-import HeaderTopModule from '../modules/HeaderTopModule.vue';
-import HeroModule from '../modules/HeroModule.vue';
+import HeaderTopModule from '../modules/HeaderTopModule.vue'
+import HeroModule from '../modules/HeroModule.vue'
 </script>
 
 <style lang="scss" scoped>
+@import '@/assets/scss/_variables.scss';
 .header-section {
-  background: var(--secondary-color);
+  background: $secondary-color;
   padding: 55px 0;
 }
 </style>

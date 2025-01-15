@@ -39,4 +39,8 @@ onMounted(() => {
 })
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.services-section {
+  padding-top: 180px;
+}
+</style>
