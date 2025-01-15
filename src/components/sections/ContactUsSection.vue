@@ -16,7 +16,7 @@
 
 <script setup>
 import { onMounted, ref } from 'vue'
-import moduleData from '../../mock-data/ourTeamsSection.json'
+import moduleData from '@/mock-data/contactUsSection.json'
 
 const title = ref(null)
 const subTitle = ref(null)
