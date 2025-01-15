@@ -1,0 +1,27 @@
+{
+  "data": {
+    "title": "Services",
+    "subTitle": "Where our services add value to your product",
+    "description": "Helping companies & individuals identify key solutions for their target markets. We boost their ability to create products. Our business model saves clients time and money. Don't reinvent the wheel.",
+    "services": [
+      {
+        "id": 1,
+        "icon": "dev",
+        "title": "Development",
+        "description": "Create a platform with the best and coolest quality from us."
+      },
+      {
+        "id": 2,
+        "icon": "uiuix",
+        "title": "UI/UX Designer",
+        "description": "We provide UI/UX Design services, and of course with the best quality"
+      },
+      {
+        "id": 3,
+        "icon": "designer",
+        "title": "Graphik Designer",
+        "description": "We provide Graphic Design services, with the best designers"
+      }
+    ]
+  }
+}
