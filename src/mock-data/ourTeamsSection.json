@@ -1,0 +1,13 @@
+{
+  "data": {
+    "title": "Our Teams",
+    "description": "Helping companies & individuals identify key solutions for their target markets. We boost their ability to create products. Our business model saves clients time and money. Don't reinvent the wheel.",
+    "team": [
+      { "id": 1, "name": "Jhon Mock", "image": "", "role": "Head of Development" },
+      { "id": 2, "name": "Leonel Know", "image": "", "role": "Head of Operations" },
+      { "id": 3, "name": "Lowen", "image": "", "role": "Head of Design" },
+      { "id": 4, "name": "Hans", "image": "", "role": "Senior Game Director" },
+      { "id": 5, "name": "Josh", "image": "", "role": "Quality Assurance" }
+    ]
+  }
+}
