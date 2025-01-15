@@ -1,0 +1,46 @@
+@mixin poppins-regular {
+  font-family: 'Poppins', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin poppins-bold {
+  font-family: 'Poppins', serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@mixin dm-sans-400 {
+  font-family: 'DM Sans', serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin dm-sans-500 {
+  font-family: 'DM Sans', serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@mixin playfair-display-700 {
+  font-family: 'Playfair Display', serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@mixin montserrat-500 {
+  font-family: 'Montserrat', serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-600 {
+  font-family: 'Montserrat', serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}

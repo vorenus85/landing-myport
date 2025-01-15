@@ -1,9 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import HeaderSection from './components/sections/HeaderSection.vue';
 </script>
 
-<template>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-</template>
+<template><HeaderSection /></template>
+<style lang="scss">
+@import './assets/scss/_fonts.scss';
+body {
+  @include dm-sans-400;
+}
+</style>
