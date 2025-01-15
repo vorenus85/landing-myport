@@ -1,0 +1,25 @@
+{
+  "data": {
+    "title": "About us",
+    "subTitle": "We build websites based on client needs and of course the target market, because that's our expertise",
+    "description": "<p>We create delightful digital experiences that make life simpler and more enjoyable. We create enterprise software that has the polished, snappy feel of the best consumer apps. <br/>From Slack to Facebook, we team up with marketing departments of large companies and startups to deliver award‑winning websites.<p>",
+    "references": [
+      { "id": 1, "image": "", "title": "Wireframe Kit", "type": "Scratch", "url": "example.com" },
+      {
+        "id": 2,
+        "image": "",
+        "title": "Wireframe Exploration",
+        "type": "Scratch",
+        "url": "example.com"
+      },
+      { "id": 3, "image": "", "title": "Brokli Store", "type": "Website", "url": "example.com" },
+      {
+        "id": 4,
+        "image": "",
+        "title": "Wareframe Mobile",
+        "type": "Scratch",
+        "url": "example.com"
+      }
+    ]
+  }
+}
