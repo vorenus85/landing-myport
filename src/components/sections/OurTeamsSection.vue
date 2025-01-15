@@ -32,7 +32,6 @@ const subTitle = ref(null)
 const description = ref(null)
 const team = ref([])
 onMounted(() => {
-  console.log(moduleData)
   title.value = moduleData.data.title
   subTitle.value = moduleData.data.subTitle
   description.value = moduleData.data.description
