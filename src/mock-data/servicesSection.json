@@ -6,19 +6,19 @@
     "services": [
       {
         "id": 1,
-        "icon": "dev",
+        "icon": "dev.svg",
         "title": "Development",
         "description": "Create a platform with the best and coolest quality from us."
       },
       {
         "id": 2,
-        "icon": "uiuix",
+        "icon": "uiux.svg",
         "title": "UI/UX Designer",
         "description": "We provide UI/UX Design services, and of course with the best quality"
       },
       {
         "id": 3,
-        "icon": "designer",
+        "icon": "designer.svg",
         "title": "Graphik Designer",
         "description": "We provide Graphic Design services, with the best designers"
       }

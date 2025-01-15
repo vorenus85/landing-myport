@@ -1,7 +1,7 @@
 <template>
   <div class="footer-section">
     <div class="container mx-auto">
-      <Logo />
+      <Logo variant="dark" />
       <div class="contact-info contact-info-email">
         [icon] <a :href="`mailto:${email}`">{{ email }}</a>
       </div>
