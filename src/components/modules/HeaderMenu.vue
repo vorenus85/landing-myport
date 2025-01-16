@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-import moduleData from '../../mock-data/headerMenu.json'
+import moduleData from '@/mock-data/headerMenu.json'
 import { onMounted, ref } from 'vue'
 
 const menu = ref([])

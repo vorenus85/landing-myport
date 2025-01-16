@@ -7,7 +7,16 @@
         </div>
         <div class="hero-description pl-0 lg:pl-20 pr-0 lg:pr-10">
           <p v-html="description" class="pb-5"></p>
-          <a @click="showContactUs" class="hero-cta"> {{ cta }}</a>
+          <div class="hero-cta flex">
+            <a @click="showContactUs" class="hero-cta-btn"> <span></span>{{ cta }} </a>
+            <img
+              class="green-arrow ml-10"
+              :src="imageUrl('green_arrow.svg', '')"
+              width="44"
+              height="33"
+              alt="contact us"
+            />
+          </div>
         </div>
       </div>
       <div class="hero-image">
@@ -25,9 +34,9 @@
 
 <script setup>
 import { onMounted, ref } from 'vue'
-import { useImageUrl } from '../../composables/useImageUrl.js'
-import moduleData from '../../mock-data/heroModule.json'
-const folder = 'herobanner'
+import { useImageUrl } from '@/composables/useImageUrl.js'
+import moduleData from '@/mock-data/heroModule.json'
+const folder = 'herobanner/'
 const { imageUrl } = useImageUrl()
 const heroTitle = ref(null)
 const description = ref(null)
@@ -75,7 +84,7 @@ onMounted(() => {
   line-height: 25px;
 }
 
-.hero-cta {
+.hero-cta-btn {
   cursor: pointer;
   padding-left: 20px;
   text-transform: uppercase;
@@ -83,7 +92,7 @@ onMounted(() => {
   font-family: DM Sans;
   font-size: 12px;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 20px;
   letter-spacing: 0.5em;
   text-align: left;
   text-decoration-style: solid;
@@ -109,7 +118,7 @@ onMounted(() => {
   &:after {
     content: '';
     position: absolute;
-    bottom: 0;
+    bottom: 2px;
     left: 0;
     display: block;
     height: 1px;

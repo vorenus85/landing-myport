@@ -9,9 +9,9 @@
 </template>
 
 <script setup>
-import Button from '../Button.vue';
-import HeaderMenu from './HeaderMenu.vue';
-import Logo from '../Logo.vue';
+import Button from '../Button.vue'
+import HeaderMenu from './HeaderMenu.vue'
+import Logo from '../Logo.vue'
 </script>
 
 <style lang="scss" scoped>
