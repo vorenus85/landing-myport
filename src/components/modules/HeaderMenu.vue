@@ -32,8 +32,24 @@ onMounted(() => {
     align-items: center;
     justify-content: center;
     padding: 0.5rem 1rem;
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      width: 0%;
+      height: 2px;
+      bottom: 5px;
+      left: 0;
+      background-color: $primary-color;
+      transition: width 0.3s ease-in-out;
+    }
+
     &:hover {
       color: $primary-color;
+      &:after {
+        width: 100%;
+      }
     }
   }
 }
