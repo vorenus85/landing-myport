@@ -45,7 +45,7 @@
   font-style: normal;
 }
 
-.montserrat-600 {
+@mixin montserrat-600 {
   font-family: 'Montserrat', serif;
   font-optical-sizing: auto;
   font-weight: 600;

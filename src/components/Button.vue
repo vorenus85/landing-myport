@@ -1,12 +1,12 @@
 <template>
-  <div class="btn" :class="btnVariant">{{ title }}</div>
+  <div class="btn" :class="btnVariant">{{ label }}</div>
 </template>
 
 <script setup>
 import { computed } from 'vue'
 
 const props = defineProps({
-  title: String,
+  label: String,
   variant: {
     type: String,
     default: 'white',
@@ -27,6 +27,7 @@ const btnVariant = computed(() => {
 @import '@/assets/scss/_variables.scss';
 .btn {
   @include poppins-700;
+  font-size: 0.85rem;
   min-width: 148px;
   line-height: 48px;
   text-align: center;
@@ -50,8 +51,8 @@ const btnVariant = computed(() => {
   }
 
   &-primary {
-    color: $primary-color;
-    background: #fff;
+    color: #fff;
+    background: $primary-color;
   }
 }
 </style>

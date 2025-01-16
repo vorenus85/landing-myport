@@ -3,7 +3,7 @@
     <div class="container mx-auto flex justify-between">
       <Logo />
       <HeaderMenu />
-      <Button title="Get started"></Button>
+      <Button label="Get started"></Button>
     </div>
   </div>
 </template>

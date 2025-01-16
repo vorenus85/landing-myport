@@ -2,23 +2,63 @@
   "data": {
     "title": "About us",
     "subTitle": "We build websites based on client needs and of course the target market, because that's our expertise",
-    "description": "<p>We create delightful digital experiences that make life simpler and more enjoyable. We create enterprise software that has the polished, snappy feel of the best consumer apps. <br/>From Slack to Facebook, we team up with marketing departments of large companies and startups to deliver award‑winning websites.<p>",
+    "description": "<p>We create delightful digital experiences that make life simpler and more enjoyable. We create enterprise software that has the polished, snappy feel of the best consumer apps. <br/> <br/>From Slack to Facebook, we team up with marketing departments of large companies and startups to deliver award‑winning websites.</p>",
     "references": [
-      { "id": 1, "image": "", "title": "Wireframe Kit", "type": "Scratch", "url": "example.com" },
+      {
+        "id": 1,
+        "image": "wfkit.jpg",
+        "title": "Wireframe Kit",
+        "type": "Scratch",
+        "url": "https://positiveadamsky.hu/"
+      },
       {
         "id": 2,
-        "image": "",
+        "image": "wfexploration.jpg",
         "title": "Wireframe Exploration",
         "type": "Scratch",
-        "url": "example.com"
+        "url": "https://positiveadamsky.hu/"
       },
-      { "id": 3, "image": "", "title": "Brokli Store", "type": "Website", "url": "example.com" },
+      {
+        "id": 3,
+        "image": "brokli.jpg",
+        "title": "Brokli Store",
+        "type": "Website",
+        "url": "https://positiveadamsky.hu/"
+      },
       {
         "id": 4,
-        "image": "",
-        "title": "Wareframe Mobile",
+        "image": "wfmobile.jpg",
+        "title": "Wireframe Mobile",
         "type": "Scratch",
-        "url": "example.com"
+        "url": "https://positiveadamsky.hu/"
+      },
+      {
+        "id": 5,
+        "image": "wfkit.jpg",
+        "title": "Wireframe Kit",
+        "type": "Scratch",
+        "url": "https://positiveadamsky.hu/"
+      },
+      {
+        "id": 6,
+        "image": "wfexploration.jpg",
+        "title": "Wireframe Exploration",
+        "type": "Scratch",
+        "url": "https://positiveadamsky.hu/"
+      },
+      {
+        "id": 7,
+        "image": "brokli.jpg",
+        "title": "Brokli Store",
+        "type": "Website",
+        "url": "https://positiveadamsky.hu/"
+      },
+      {
+        "id": 8,
+        "image": "wfmobile.jpg",
+        "title": "Wireframe Mobile",
+        "type": "Scratch",
+        "url": "https://positiveadamsky.hu/"
       }
     ]
   }
