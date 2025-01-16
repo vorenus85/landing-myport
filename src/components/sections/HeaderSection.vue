@@ -1,5 +1,5 @@
 <template>
-  <section class="header-section">
+  <section class="header-section relative">
     <HeaderTopModule class="relative z-10"></HeaderTopModule>
     <HeroModule></HeroModule>
     <img
@@ -40,7 +40,7 @@ const { imageUrl } = useImageUrl()
 
 .glow-left {
   position: absolute;
-  bottom: -20px;
+  bottom: -300px;
   left: 0;
   z-index: 0;
 }

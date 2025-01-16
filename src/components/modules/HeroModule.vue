@@ -6,7 +6,7 @@
           <h1 v-html="heroTitle"></h1>
         </div>
         <div class="hero-description pl-0 lg:pl-20 pr-0 lg:pr-10">
-          <p v-html="description" class="pb-5"></p>
+          <p v-html="description" class="pb-5 pt-3"></p>
           <div class="hero-cta flex">
             <a @click="showContactUs" class="hero-cta-btn"> <span></span>{{ cta }} </a>
             <img
@@ -58,7 +58,7 @@ onMounted(() => {
 <style lang="scss" scoped>
 @import '@/assets/scss/_variables.scss';
 @import '@/assets/scss/_fonts.scss';
-.hero-title {
+.hero-title h1 {
   @include playfair-display-700;
   font-size: 3rem;
   line-height: 3.5rem;
@@ -89,7 +89,6 @@ onMounted(() => {
   padding-left: 20px;
   text-transform: uppercase;
   color: $primary-color;
-  font-family: DM Sans;
   font-size: 12px;
   font-weight: 700;
   line-height: 20px;
@@ -131,6 +130,11 @@ onMounted(() => {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: -180px;
+}
+
+@media (min-width: 1024px) {
+  .hero-image {
+    margin-bottom: -180px;
+  }
 }
 </style>

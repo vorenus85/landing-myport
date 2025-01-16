@@ -9,3 +9,7 @@
 a {
   transition: all 0.2s;
 }
+
+.module-title {
+  font-size: 1rem;
+}
