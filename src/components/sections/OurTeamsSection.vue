@@ -33,9 +33,9 @@
 
 <script setup>
 import { onMounted, ref } from 'vue'
-import moduleData from '../../mock-data/ourTeamsSection.json'
-import { useImageUrl } from '../../composables/useImageUrl.js'
-const folder = 'teams'
+import moduleData from '@/mock-data/ourTeamsSection.json'
+import { useImageUrl } from '@/composables/useImageUrl.js'
+const folder = 'teams/'
 const { imageUrl } = useImageUrl()
 
 const title = ref(null)
