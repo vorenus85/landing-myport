@@ -12,8 +12,10 @@ import ServicesSection from '@/components/sections/ServicesSection.vue'
   <ContactUsSection /><FooterSection />
 </template>
 <style lang="scss">
+@import '@/assets/scss/_variables.scss';
 @import '@/assets/scss/_fonts.scss';
 body {
   @include dm-sans-400;
+  color: $secondary-color;
 }
 </style>

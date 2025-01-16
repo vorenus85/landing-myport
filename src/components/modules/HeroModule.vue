@@ -8,7 +8,7 @@
         <div class="hero-description pl-0 lg:pl-20 pr-0 lg:pr-10">
           <p v-html="description" class="pb-5 pt-3"></p>
           <div class="hero-cta flex">
-            <a @click="showContactUs" class="hero-cta-btn"> <span></span>{{ cta }} </a>
+            <a href="#contact-us" class="hero-cta-btn"> <span></span>{{ cta }} </a>
             <img
               class="green-arrow ml-10"
               :src="imageUrl('green_arrow.svg', '')"
@@ -42,10 +42,6 @@ const heroTitle = ref(null)
 const description = ref(null)
 const cta = ref(null)
 const banner = ref({ alt: '', image: '' })
-
-const showContactUs = () => {
-  console.log('show contact us')
-}
 
 onMounted(() => {
   heroTitle.value = moduleData.data.title

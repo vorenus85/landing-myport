@@ -51,3 +51,35 @@
   font-weight: 600;
   font-style: normal;
 }
+
+.poppins-400 {
+  @include poppins-400;
+}
+
+.poppins-700 {
+  @include poppins-700;
+}
+
+.dm-sans-400 {
+  @include dm-sans-400;
+}
+
+.dm-sans-500 {
+  @include dm-sans-500;
+}
+
+.dm-sans-700 {
+  @include dm-sans-700;
+}
+
+.playfair-display-700 {
+  @include playfair-display-700;
+}
+
+.montserrat-500 {
+  @include montserrat-500;
+}
+
+.montserrat-600 {
+  @include montserrat-600;
+}

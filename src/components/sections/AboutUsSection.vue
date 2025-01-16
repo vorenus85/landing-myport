@@ -184,10 +184,16 @@ onMounted(() => {
 
 .reference {
   &-card {
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     padding: 20px;
     border: 1px solid rgba(255, 255, 255, 0.15);
+    transition: all 0.2s;
+
+    &:hover {
+      border: 1px solid $primary-color;
+    }
   }
 
   &-name {
