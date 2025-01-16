@@ -17,8 +17,3 @@ const getStarted = () => {
   document.getElementById('services').scrollIntoView({ behavior: 'smooth' })
 }
 </script>
-
-<style lang="scss" scoped>
-.header-top {
-}
-</style>
