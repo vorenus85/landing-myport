@@ -35,24 +35,32 @@ const btnVariant = computed(() => {
   text-transform: uppercase;
   cursor: pointer;
   transition: all 0.2s;
-
-  &:hover {
-    opacity: 0.9;
-  }
+  outline-offset: 0px;
+  outline: 1px solid transparent;
 
   &:active,
   &:focus {
-    opacity: 0.8;
+    opacity: 0.9;
   }
 
   &-white {
     color: $secondary-color;
     background: #fff;
+
+    &:hover {
+      outline-offset: 2px;
+      outline-color: #fff;
+    }
   }
 
   &-primary {
     color: #fff;
     background: $primary-color;
+
+    &:hover {
+      outline-offset: 2px;
+      outline-color: $primary-color;
+    }
   }
 }
 </style>
