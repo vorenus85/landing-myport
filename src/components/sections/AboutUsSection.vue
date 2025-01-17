@@ -10,7 +10,7 @@
           <div class="module-body pb-5 lg:pr-5">
             <div class="module-description pb-5" v-html="description"></div>
             <div class="module-footer flex mt-5">
-              <Button variant="primary" label="Hire us" class="hire-us" />
+              <Button variant="primary" label="Hire us" class="hire-us" @click="hireUs" />
             </div>
           </div>
         </div>
@@ -153,6 +153,10 @@ const carouselConfig = {
   }
 }
 
+const hireUs = () => {
+  document.getElementById('contact-us').scrollIntoView({ behavior: 'smooth' })
+}
+
 const showReference = url => {
   window.open(url)
 }
@@ -204,7 +208,6 @@ onMounted(() => {
 }
 
 .video-play-btn {
-  // todo simple pulse effect
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

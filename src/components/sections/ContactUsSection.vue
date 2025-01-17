@@ -57,7 +57,7 @@ const telNumber = computed(() => {
 
 // Determine the background image based on screen width
 const setResponsiveImage = () => {
-  currentBackgroundUrl.value = window.matchMedia('(max-width: 992px)').matches
+  currentBackgroundUrl.value = window.matchMedia('(max-width: 1024px)').matches
     ? mobileBackgroundUrl
     : desktopBackgroundUrl
 }
