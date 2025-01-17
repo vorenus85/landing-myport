@@ -4,13 +4,13 @@
     <HeroModule></HeroModule>
     <img
       class="glow-right hidden lg:block"
-      :src="imageUrl('glow_right.png', '')"
+      :src="imageUrl('glow_right.webp', '')"
       width="429"
       height="553"
     />
     <img
       class="glow-left hidden lg:block"
-      :src="imageUrl('glow_left.png', '')"
+      :src="imageUrl('glow_left.webp', '')"
       width="369"
       height="743"
     />

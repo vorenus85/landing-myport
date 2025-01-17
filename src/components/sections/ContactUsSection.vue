@@ -45,7 +45,7 @@ const subTitle = ref(null)
 const cta = ref(null)
 const tel = ref(null)
 
-const desktopBackgroundUrl = imageUrl('chair.png', '') // Replace with desktop image path
+const desktopBackgroundUrl = imageUrl('chair.webp', '') // Replace with desktop image path
 const mobileBackgroundUrl = null // Replace with mobile image path
 
 const currentBackgroundUrl = ref('')

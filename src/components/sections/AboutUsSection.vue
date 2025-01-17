@@ -35,7 +35,7 @@
               v-if="!videoIsStarted"
               class="video-cover"
               alt="about us video"
-              :src="imageUrl('video_cover.jpg', '')"
+              :src="imageUrl('video_cover.webp', '')"
               loading="lazy"
               :width="628"
               :height="450"
@@ -44,7 +44,7 @@
           <div class="video-play-btn absolute z-10" v-if="!videoIsStarted">
             <img
               alt="play video"
-              :src="imageUrl('play.png', '')"
+              :src="imageUrl('play.webp', '')"
               loading="lazy"
               :width="84"
               :height="84"
@@ -93,7 +93,7 @@
     <img
       class="about-us-glow absolute hidden lg:block"
       alt="glowing effect"
-      :src="imageUrl('about_us_glow.png', '')"
+      :src="imageUrl('about_us_glow.webp', '')"
       loading="lazy"
       :width="449"
       :height="743"
