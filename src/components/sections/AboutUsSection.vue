@@ -61,7 +61,7 @@
             <div class="reference-image-wrapper mb-3">
               <img
                 class="reference-image"
-                :alt="reference.alt"
+                :alt="reference.title"
                 :src="imageUrl(reference.image, folder)"
                 loading="lazy"
                 :width="324"

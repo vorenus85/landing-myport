@@ -1,6 +1,6 @@
 {
   "data": [
-    { "id": 1, "title": "Home", "href": "/" },
+    { "id": 1, "title": "Home", "href": "/landing-myport" },
     { "id": 2, "title": "Services", "href": "#services" },
     { "id": 3, "title": "About us", "href": "#about-us" },
     { "id": 4, "title": "Contact us", "href": "#contact-us" }
